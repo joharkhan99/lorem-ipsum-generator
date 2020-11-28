@@ -1,0 +1,47 @@
+body{
+  background-color: rgb(220, 220, 252);
+  font-family: 'Roboto', sans-serif;
+}
+section{
+  margin: auto;
+  width: 90%;
+  padding: 10px;
+}
+#submit1,#submit2{
+  cursor: pointer;
+  text-transform: uppercase;
+  padding: 3px;
+  background-color: rgb(174, 174, 255);
+  border: none;
+  border-radius: 2px;
+  transition: transform .3s;
+}
+.total{
+  padding: 5px;
+  width: 25%;
+  font-size: 11px;
+  background-color:  rgb(242, 240, 240);
+  border-radius: 2px;
+  border: 1px solid #ccc;
+}
+#submit1:focus,#submit2:focus,.total:focus{
+  outline: none;
+}
+#submit1:active,#submit2:active{
+  transform: scale(0.9);
+}
+h1{
+  text-align: center;
+}
+label{
+  font-weight: 600;
+}
+article{
+  font-size: 13.5px;
+}
+div{
+  text-align: center;
+}
+.words{
+  padding-top: 12px;
+}
